@@ -75,7 +75,7 @@
       <file leaf-file-name="Library.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="61" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.16267942">
+            <state line="53" column="50" selection-start="1538" selection-end="1538" vertical-scroll-proportion="2.1352656">
               <folding />
             </state>
           </provider>
@@ -84,7 +84,43 @@
       <file leaf-file-name="LibraryTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="93" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0">
+            <state line="30" column="70" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceHolder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/ResourceHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="92" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="11" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceHolderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/twu/Biblioteca/Resource/ResourceHolderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="42" selection-start="1455" selection-end="1466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="20" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Library.java" />
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/Library/Library.java" />
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/Resource/module/Book.java" />
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/UI/IIOTool.java" />
@@ -114,12 +149,13 @@
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/UI/ConsoleTool.java" />
         <option value="$PROJECT_DIR$/test/twu/Biblioteca/UI/ConsoleToolTest.java" />
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Book.java" />
-        <option value="$PROJECT_DIR$/test/twu/Biblioteca/Resource/ResourceHolderTest.java" />
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/UI/UserInterface.java" />
         <option value="$PROJECT_DIR$/test/twu/Biblioteca/UI/UserInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/twu/Biblioteca/Resource/ResourceHolder.java" />
         <option value="$PROJECT_DIR$/test/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/twu/Biblioteca/Library.java" />
+        <option value="$PROJECT_DIR$/test/twu/Biblioteca/Resource/ResourceHolderTest.java" />
+        <option value="$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Movie.java" />
+        <option value="$PROJECT_DIR$/src/twu/Biblioteca/Resource/ResourceHolder.java" />
       </list>
     </option>
   </component>
@@ -174,7 +210,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,6 +283,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,6 +382,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,6 +415,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="twu.Biblioteca.Resource.model" />
       <recent name="twu.Biblioteca.UI" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -382,30 +423,7 @@
       <recent name="twu.Biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
-    <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="Biblioteca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ResourceHolderTest.should_list_all_the_movies">
     <configuration default="false" name="LibraryTest.user_should_see_welcome_and_menu" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="Biblioteca" />
@@ -502,6 +520,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ResourceHolderTest.should_list_all_the_movies" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="Biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twu.Biblioteca.Resource" />
+      <option name="MAIN_CLASS_NAME" value="twu.Biblioteca.Resource.ResourceHolderTest" />
+      <option name="METHOD_NAME" value="should_list_all_the_movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -511,15 +552,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
       </method>
@@ -626,11 +658,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.user_should_see_welcome_and_menu" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest.user_should_be_notified_when_select_a_invalid_option" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Library" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserInterfaceTest.user_should_see_menu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest.user_should_see_welcome_and_menu" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.user_should_be_notified_when_select_a_invalid_option" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Library" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserInterfaceTest.user_should_see_menu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ResourceHolderTest.should_list_all_the_movies" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -665,28 +697,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.6753049" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981315" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -789,11 +821,6 @@
         <state line="4" column="29" selection-start="99" selection-end="124" vertical-scroll-proportion="0.20437956" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="101" selection-end="101" vertical-scroll-proportion="0.20289855" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/twu/Biblioteca/UI/ConsoleToolTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="4" selection-start="382" selection-end="382" vertical-scroll-proportion="0.26184538" />
@@ -814,16 +841,6 @@
         <state line="18" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="0.49275362" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/twu/Biblioteca/Resource/ResourceHolderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="575" selection-end="606" vertical-scroll-proportion="0.10659899" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/ResourceHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="605" selection-end="605" vertical-scroll-proportion="0.60144925" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/twu/Biblioteca/UI/UserInterfaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="79" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.3840399" />
@@ -834,14 +851,44 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/twu/Biblioteca/Resource/ResourceHolderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="42" selection-start="1455" selection-end="1466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Resource/ResourceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="92" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="93" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0" />
+        <state line="30" column="70" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/twu/Biblioteca/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="61" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.16267942">
+        <state line="53" column="50" selection-start="1538" selection-end="1538" vertical-scroll-proportion="2.1352656">
           <folding />
         </state>
       </provider>
