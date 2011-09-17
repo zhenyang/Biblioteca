@@ -11,15 +11,24 @@ public class ResourceHolder {
     List<Movie> movies;
 
     public ResourceHolder() {
-        books = new ArrayList<Book>();
-        books.add(new Book(1, "Clean Code"));
-        books.add(new Book(2, "Test Driven Development"));
-        books.add(new Book(3, "Head First JAVA"));
+        books = createBooks();
+        movies = createMovies();
+    }
 
-        movies = new ArrayList<Movie>();
+    private List<Movie> createMovies() {
+        List<Movie> movies = new ArrayList<Movie>();
         movies.add(new Movie("Forrest Gump", "Robert Zemeckis", 9));
         movies.add(new Movie("Eternal Sunshine of the Spotless Mind", "Michel Gondry", 8));
         movies.add(new Movie("Source Code", "Duncan Jones"));
+        return movies;
+    }
+
+    private List<Book> createBooks() {
+        List<Book> books = new ArrayList<Book>();
+        books.add(new Book(1, "Clean Code"));
+        books.add(new Book(2, "Test Driven Development"));
+        books.add(new Book(3, "Head First JAVA"));
+        return books;
     }
 
     public String listBooks() {
